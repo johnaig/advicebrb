@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Application</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-color: #ffffff;
+        }
+        .container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            /* ดันขอบล่างให้เลยหน้าจอออกไป 35px เพื่อซ่อนแถบเตือน */
+            height: calc(100% + 35px); 
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <iframe src="https://script.google.com/macros/s/AKfycbw1i5g5LpTyXaNrCffy25It7SFkohYKf3jygOIVxoul4hcn3tPGu27lmIk-CpaQxJqL/exec"></iframe>
+    </div>
+</body>
+</html>
